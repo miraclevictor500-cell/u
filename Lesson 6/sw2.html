@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            position: relative;
+        }
+    
+        .safari-slide {
+            height: 200px;
+            text-align: center;
+            padding-top: 75px;
+            font-size: 1.8rem;
+            color: white;
+        }
+    
+        .slide-forest {
+            background: darkgreen;
+        }
+    
+        .slide-ocean {
+            background: steelblue;
+        }
+    
+        .slide-desert {
+            background: orange;
+        }
+    
+        .section {
+            padding: 70px 20px;
+            min-height: 300px;
+        }
+    
+        #forest {
+            background: honeydew;
+        }
+    
+        #ocean {
+            background: aliceblue;
+        }
+    
+        #desert {
+            background: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>  error : 2-kdh
+        21.jd
+    sorry this is an error or this current file is corrupted please try again or you can call our support team at 1-800-123-4567
+ </h1>
+
+<div id="zoo">
+    <div class="zone">Zone 1: <span id="zone1"></span></div>
+     <div class="zone">Zone 2: <span id="zone2"></span></div>
+      <div class="zone">Zone 3: <span id="zone3"></span></div>
+      <div class="zone">Total Animals: <span id="total"></span></div>
+</div>
+
+<br>
+
+<button onclick="OpenZoo()">Open the Zoo!!!</button>
+
+<p id="zoo-status"></p>
+
+<script>
+
+    function OpenZoo() {
+        /* Task 1:Add you first animal in zone 1*/
+        document.getElementById("zone1").innerHTML = "Lion";
+
+         /* Task 2:Add you second animal in zone 2*/
+        document.getElementById("zone2").innerHTML = "Elephant";
+
+         /* Task 3:Add you third animal in zone 3*/
+         document.getElementById("zone3").innerHTML = "Giraffe";
+
+         /* Task 4: Calculate the total number of animals in the zoo and display it in the "Total Animals" section*/
+         document.getElementById("total").innerHTML = 3;
+
+         /* Task 5: Change the zoo background color */
+         document.getElementById("zoo").style.backgroundColor = "lightgreen";
+
+         /* Task 6: Use the document object to show the page title in the "zoo-status" section*/
+         document.getElementById("zoo-status").innerHTML = "Welcome to the Zoo! Enjoy your visit!";
+    }
+</script>
+
+
+</body>
+</html> 
